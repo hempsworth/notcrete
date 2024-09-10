@@ -1,0 +1,1400 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Heim\n"
+"POT-Creation-Date: 2023-10-19 15:12+0200\n"
+"PO-Revision-Date: 2023-03-21 16:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/setup/includes/tgmpa\n"
+
+#: 404.php:15
+msgctxt "404 page template"
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. translators: %s: homepage link
+#: 404.php:29
+#, php-format
+msgid "Back to %1$shomepage%2$s"
+msgstr ""
+
+#: comments.php:30
+msgid "1 comment"
+msgstr ""
+
+#. translators: %s: comment count
+#: comments.php:35
+#, php-format
+msgctxt "Comments title"
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Leave a comment"
+msgstr ""
+
+#: footer.php:27
+msgid "Footer menu"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:38 template-parts/page/content.php:18
+#: template-parts/post/content-single.php:32
+msgid "Page"
+msgstr ""
+
+#: image.php:40 template-parts/page/content.php:20
+#: template-parts/post/content-single.php:34
+msgid "Page %"
+msgstr ""
+
+#: image.php:53
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#. translators: %s: post permalink
+#: image.php:65
+#, php-format
+msgid "Published in %s"
+msgstr ""
+
+#: includes/block-patterns.php:17
+msgctxt "Block Patterns Category"
+msgid "Heim Theme"
+msgstr ""
+
+#: includes/block-styles.php:20
+msgid "Smaller Margins"
+msgstr ""
+
+#: includes/block-styles.php:27
+msgid "Smaller Columns Gap"
+msgstr ""
+
+#: includes/block-styles.php:36
+msgid "Cover Feature Padding"
+msgstr ""
+
+#: includes/block-styles.php:45
+msgid "No Margin"
+msgstr ""
+
+#: includes/block-styles.php:54
+msgid "Feature Preset"
+msgstr ""
+
+#: includes/block-styles.php:63
+msgid "Split align"
+msgstr ""
+
+#: includes/block-styles.php:72
+msgid "Mobile: Max height"
+msgstr ""
+
+#: includes/block-styles.php:79
+msgid "Mobile: Hide"
+msgstr ""
+
+#: includes/block-styles.php:88
+msgid "Slim Border"
+msgstr ""
+
+#: includes/block-styles.php:97
+msgid "Simplified"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:122
+msgctxt "Theme customizer"
+msgid "Fonts"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:128
+msgctxt "Theme customizer"
+msgid "Font Types"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:139
+msgctxt "Theme customizer"
+msgid "Main"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:144
+#: includes/classes/class-heim-customize.php:163
+msgctxt "Theme customizer"
+msgid "Enter font name e.g: Inter"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:158
+#: includes/classes/class-heim-customize.php:347
+#: includes/classes/class-heim-customize.php:834
+msgctxt "Theme customizer"
+msgid "Headings"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:173
+msgctxt "Theme customizer"
+msgid "Font Sizes"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:184
+msgctxt "Theme customizer"
+msgid "Base body text"
+msgstr ""
+
+#. translators: %s: line breaks
+#: includes/classes/class-heim-customize.php:186
+#, php-format
+msgctxt "Theme customizer"
+msgid ""
+"Used for Body text, all elements (Headings, Paragraphs, Buttons etc.) are "
+"adjusted to their relative sizes based on this single size.%sA size between "
+"14 and 18 is recommended."
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:204
+msgctxt "Theme customizer"
+msgid "Header menu"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:205
+#: includes/classes/class-heim-customize.php:224
+msgctxt "Theme customizer"
+msgid "A size between 14 and 18 is recommended."
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:223
+msgctxt "Theme customizer"
+msgid "Header submenus"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:238
+msgctxt "Theme customizer"
+msgid "Colors"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:244
+msgctxt "Theme customizer"
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:255
+#: includes/classes/class-heim-customize.php:1464
+msgctxt "Theme customizer"
+msgid "Color mode"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:259
+msgctxt "Theme customizer"
+msgid "Light"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:260
+msgctxt "Theme customizer"
+msgid "Dark"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:261
+msgctxt "Theme customizer"
+msgid "Auto (use browser theme)"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:269
+msgctxt "Theme customizer"
+msgid "Light Mode"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:308
+#: includes/classes/class-heim-customize.php:795
+msgctxt "Theme customizer"
+msgid "Body/Background"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:321
+#: includes/classes/class-heim-customize.php:414
+#: includes/classes/class-heim-customize.php:507
+#: includes/classes/class-heim-customize.php:808
+#: includes/classes/class-heim-customize.php:901
+#: includes/classes/class-heim-customize.php:994
+msgctxt "Theme customizer"
+msgid "Text"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:360
+#: includes/classes/class-heim-customize.php:533
+#: includes/classes/class-heim-customize.php:847
+#: includes/classes/class-heim-customize.php:1020
+msgctxt "Theme customizer"
+msgid "Borders"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:373
+msgctxt "Theme customizer"
+msgid "Highlights"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:400
+#: includes/classes/class-heim-customize.php:887
+#: includes/classes/class-heim-customize.php:1271
+msgctxt "Theme customizer"
+msgid "Header"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:427
+#: includes/classes/class-heim-customize.php:520
+#: includes/classes/class-heim-customize.php:914
+#: includes/classes/class-heim-customize.php:1007
+msgctxt "Theme customizer"
+msgid "Background"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:453
+#: includes/classes/class-heim-customize.php:940
+msgctxt "Theme customizer"
+msgid "Submenu text"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:466
+#: includes/classes/class-heim-customize.php:953
+msgctxt "Theme customizer"
+msgid "Submenu background"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:493
+#: includes/classes/class-heim-customize.php:980
+#: includes/classes/class-heim-customize.php:1647
+msgctxt "Theme customizer"
+msgid "Footer"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:560
+#: includes/classes/class-heim-customize.php:1047
+msgctxt "Theme customizer"
+msgid "Forms & Buttons"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:574
+#: includes/classes/class-heim-customize.php:1061
+msgctxt "Theme customizer"
+msgid "Fields background"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:587
+#: includes/classes/class-heim-customize.php:1074
+msgctxt "Theme customizer"
+msgid "Fields focus background"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:600
+#: includes/classes/class-heim-customize.php:1087
+msgctxt "Theme customizer"
+msgid "Buttons text"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:613
+#: includes/classes/class-heim-customize.php:1100
+msgctxt "Theme customizer"
+msgid "Buttons background"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:626
+#: includes/classes/class-heim-customize.php:1113
+msgctxt "Theme customizer"
+msgid "Buttons border"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:653
+#: includes/classes/class-heim-customize.php:1140
+msgctxt "Theme customizer"
+msgid "Color Palette"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:654
+#: includes/classes/class-heim-customize.php:1141
+msgctxt "Theme customizer"
+msgid ""
+"Most of these colors are unused by default, but can be selected for Blocks "
+"in the Block Editor."
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:668
+#: includes/classes/class-heim-customize.php:1155
+msgctxt "Theme customizer"
+msgid "Body contrast"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:669
+#: includes/classes/class-heim-customize.php:1156
+msgctxt "Theme customizer"
+msgid "Used by: Store/Info Notices"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:682
+#: includes/classes/class-heim-customize.php:1169
+msgctxt "Theme customizer"
+msgid "Body contrast 2"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:695
+#: includes/classes/class-heim-customize.php:1183
+msgctxt "Theme customizer"
+msgid "Body contrast 3"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:708
+#: includes/classes/class-heim-customize.php:1196
+msgctxt "Theme customizer"
+msgid "Body contrast 4"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:721
+#: includes/classes/class-heim-customize.php:1210
+msgctxt "Theme customizer"
+msgid "Body contrast 5"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:734
+#: includes/classes/class-heim-customize.php:1223
+msgctxt "Theme customizer"
+msgid "Body contrast 6"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:747
+#: includes/classes/class-heim-customize.php:1236
+msgctxt "Theme customizer"
+msgid "Body contrast 7"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:760
+#: includes/classes/class-heim-customize.php:1249
+msgctxt "Theme customizer"
+msgid "Body contrast 8"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:774
+#: includes/classes/class-heim-customize.php:1263
+msgctxt "Theme customizer"
+msgid "Body contrast 9"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:783
+msgctxt "Theme customizer"
+msgid "Dark Mode"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:860
+msgctxt "Theme customizer"
+msgid "Labels/highlights"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1170
+msgctxt "Theme customizer"
+msgid "Used by: Secondary Buttons"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1197
+msgctxt "Theme customizer"
+msgid "Used by: Secondary Buttons Contrast/Hover"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1282
+msgctxt "Theme customizer"
+msgid "Logo - Dark mode"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1295
+msgctxt "Theme customizer"
+msgid "Logo - Height"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1313
+msgctxt "Theme customizer"
+msgid "Mobile Logo"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1314
+#: includes/classes/class-heim-customize.php:1328
+msgctxt "Theme customizer"
+msgid "Display an alternative logo on mobile/tablet sized screens."
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1327
+msgctxt "Theme customizer"
+msgid "Mobile Logo - Dark mode"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1341
+msgctxt "Theme customizer"
+msgid "Mobile Logo - Height"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1359
+msgctxt "Theme customizer"
+msgid "Scroll behaviour"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1373
+msgctxt "Theme customizer"
+msgid "Sticky - Make header \"stick\" to page top when scrolling up"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1399
+msgctxt "Theme customizer"
+msgid "Height"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1400
+#: includes/classes/class-heim-customize.php:1686
+#: includes/classes/class-heim-customize.php:1705
+msgctxt "Theme customizer"
+msgid "(value is in pixels/px)"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1418
+msgctxt "Theme customizer"
+msgid "Mobile and Sticky height"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1419
+msgctxt "Theme customizer"
+msgid "Used for Mobile and Sticky header (value is in pixels/px)"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1450
+msgctxt "Theme customizer"
+msgid "Tools menu buttons"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1477
+msgctxt "Theme customizer"
+msgid "Search"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1491
+msgctxt "Theme customizer"
+msgid "My account"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1505
+msgctxt "Theme customizer"
+msgid "Wishlist"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1519
+msgctxt "Theme customizer"
+msgid "Cart"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1545
+msgctxt "Theme customizer"
+msgid "Search suggestions"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1546
+msgctxt "Theme customizer"
+msgid "Enter comma separated list of search suggestions"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1550
+msgctxt "Theme customizer"
+msgid "e.g: artwork, pillow, scented"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1577
+msgctxt "Theme customizer"
+msgid "Mini cart"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1592
+msgctxt "Theme customizer"
+msgid "Show after adding to cart"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1600
+msgctxt "Theme customizer"
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1611
+msgctxt "Theme customizer"
+msgid "Enable on desktop"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1625
+msgctxt "Theme customizer"
+msgid "Display categories menu"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1639
+msgctxt "Theme customizer"
+msgid "Display color mode"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1658
+msgctxt "Theme customizer"
+msgid "Footer text"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1659
+msgctxt "Theme customizer"
+msgid "HTML tags allowed: a, br, div, em, i, img, span, strong"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1685
+msgctxt "Theme customizer"
+msgid "Vertical spacing"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1704
+msgctxt "Theme customizer"
+msgid "Mobile vertical spacing"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1736
+msgctxt "Theme customizer"
+msgid "Widget columns"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1737
+msgctxt "Theme customizer"
+msgid "(1 to 5)"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1755
+msgctxt "Theme customizer"
+msgid "First widget columns"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1756
+msgctxt "Theme customizer"
+msgid "First widget can span across multiple columns (1 to 4)"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1769
+msgctxt "Theme customizer"
+msgid "Blog"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1780
+msgctxt "Theme customizer"
+msgid "Blog heading"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1794
+msgctxt "Theme customizer"
+msgid "Hide on Category pages"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1807
+msgctxt "Theme customizer"
+msgid "Category menu"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1821
+#: includes/classes/class-heim-customize.php:1901
+#: includes/classes/class-heim-customize.php:1969
+msgctxt "Theme customizer"
+msgid "Enable"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1832
+msgctxt "Theme customizer"
+msgid "Shop"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1869
+msgctxt "Theme customizer"
+msgid "Filters"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1873
+msgctxt "Theme customizer"
+msgid "Sidebar"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1874
+msgctxt "Theme customizer"
+msgid "Slide-in panel"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1875
+msgctxt "Theme customizer"
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1887
+msgctxt "Theme customizer"
+msgid "Filters toggle"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1914
+msgctxt "Theme customizer"
+msgid "Slide-in panel buttons"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1915
+msgctxt "Theme customizer"
+msgid "Add button(s) for opening the filters slide-in panel."
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1929
+msgctxt "Theme customizer"
+msgid "All filters"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1942
+msgctxt "Theme customizer"
+msgid "Individual filters (color, size etc.)"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1955
+msgctxt "Theme customizer"
+msgid "\"Hover\" thumbnail"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1982
+msgctxt "Theme customizer"
+msgid "Pagination"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1986
+msgctxt "Theme customizer"
+msgid "Standard"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:1987
+msgctxt "Theme customizer"
+msgid "\"Show more\" button"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2012
+msgctxt "Theme customizer"
+msgid "Sale label"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2016
+msgctxt "Theme customizer"
+msgid "Display percentage"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2017
+msgctxt "Theme customizer"
+msgid "Display text"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2018
+msgctxt "Theme customizer"
+msgid "Hide"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2030
+msgctxt "Theme customizer"
+msgid "New label"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2044
+msgctxt "Theme customizer"
+msgid "Display"
+msgstr ""
+
+#: includes/classes/class-heim-customize.php:2425
+#: woocommerce/loop/orderby.php:24
+msgid "Sorting"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:64
+msgctxt "Menu locations"
+msgid "Header Primary"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:65
+msgctxt "Menu locations"
+msgid "Header Secondary"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:66
+msgctxt "Menu locations"
+msgid "Mobile Primary"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:67
+msgctxt "Menu locations"
+msgid "Mobile Secondary"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:68
+msgctxt "Menu locations"
+msgid "Footer"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:93
+msgctxt "Sidebar name"
+msgid "Shop Filters"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:95
+msgctxt "Sidebar description"
+msgid "Add filter widgets for the shop catalog."
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:105
+msgctxt "Sidebar name"
+msgid "Footer Widgets"
+msgstr ""
+
+#: includes/functions/function-theme-setup.php:107
+msgctxt "Sidebar description"
+msgid "Add widgets for the footer."
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:106
+msgid "New"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:213
+#: includes/functions/function-woocommerce.php:314
+#: template-parts/header/mobile-menu.php:16
+msgid "Close"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:259
+msgid "All filters"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:259
+#: includes/functions/function-woocommerce.php:264
+msgid "Filters"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:418
+msgid "Sale!"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:441
+msgid "Show more"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:626
+msgctxt "block title"
+msgid "Payment Options"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:649
+msgid "Coupon:"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:650
+msgid "Coupon code"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:652
+msgid "Apply"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:666
+msgid "Login"
+msgstr ""
+
+#: includes/functions/function-woocommerce.php:667
+msgid "Register"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:51
+msgctxt "Theme setup"
+msgid "Theme Setup"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:56
+msgctxt "Theme setup"
+msgid "Importing Attachments"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:59
+msgctxt "Theme setup"
+msgid "Importing Posts"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:62
+msgctxt "Theme setup"
+msgid "Importing Products"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:65
+msgctxt "Theme setup"
+msgid "Importing Pages"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:68
+msgctxt "Theme setup"
+msgid "Importing Menus"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:71
+msgctxt "Theme setup"
+msgid "Importing Widgets"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:74
+msgctxt "Theme setup"
+msgid "Configuring Settings"
+msgstr ""
+
+#. translators: %s: theme title
+#: includes/setup/class-heim-setup.php:232
+#, php-format
+msgctxt "Theme setup"
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:237
+msgctxt "Theme setup"
+msgid ""
+"This wizard will help you set-up the theme, install WooCommerce and import "
+"demo content. This is optional and should take a couple of minutes."
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:242
+#: includes/setup/class-heim-setup.php:294
+#: includes/setup/class-heim-setup.php:360
+msgctxt "Theme setup"
+msgid "Skip"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:248
+#: includes/setup/class-heim-setup.php:300
+#: includes/setup/class-heim-setup.php:312
+msgctxt "Theme setup"
+msgid "Next"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:269
+msgctxt "Theme setup"
+msgid "Install WooCommerce"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:274
+msgctxt "Theme setup"
+msgid ""
+"Let's start by installing WooCommerce. This is an optional step, but "
+"required to enable the theme's e-commerce features."
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:284
+msgctxt "Theme setup"
+msgid "Status"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:307
+msgctxt "Theme setup"
+msgid "Great, WooCommerce is already installed."
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:329
+#: includes/setup/includes/heim-plugin-installer.php:188
+msgctxt "Theme setup"
+msgid "Not installed"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:331
+#: includes/setup/includes/heim-plugin-installer.php:202
+msgctxt "Theme setup"
+msgid "Installed"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:331
+msgctxt "Theme setup"
+msgid "Partially installed"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:334
+msgctxt "Theme setup"
+msgid "Import"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:334
+msgctxt "Theme setup"
+msgid "Import Again"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:339
+msgctxt "Theme setup"
+msgid "Import Content"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:342
+msgctxt "Theme setup"
+msgid "Do you want to import the demo content?"
+msgstr ""
+
+#. translators: 1: strong tag open 2: strong tag close
+#: includes/setup/class-heim-setup.php:347
+#, php-format
+msgctxt "Theme setup"
+msgid ""
+"%1$sNote:%2$s It's recommended to import the demo content on a New/Empty "
+"WordPress installation."
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:383
+msgctxt "Theme setup"
+msgid "That's It!"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:386
+msgctxt "Theme setup"
+msgid ""
+"Setup is done, you can it run again via \"Appearance > Theme Setup\" in the "
+"WordPress admin if needed."
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:391
+msgctxt "Theme setup"
+msgid "Useful links:"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:392
+msgctxt "Theme setup"
+msgid "Theme Documentation"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:393
+msgctxt "Theme setup"
+msgid "WooCommerce Setup Wizard"
+msgstr ""
+
+#: includes/setup/class-heim-setup.php:398
+msgctxt "Theme setup"
+msgid "Visit Site"
+msgstr ""
+
+#: includes/setup/includes/heim-plugin-installer.php:66
+#: includes/setup/includes/heim-plugin-installer.php:94
+#: includes/setup/includes/heim-plugin-installer.php:210
+msgctxt "Theme setup"
+msgid "Installed and activated"
+msgstr ""
+
+#: includes/template-tags.php:94
+msgid "Day"
+msgstr ""
+
+#: includes/template-tags.php:95
+msgid "Night"
+msgstr ""
+
+#: includes/template-tags.php:107
+msgid "Menu"
+msgstr ""
+
+#: includes/template-tags.php:203 template-parts/header/menu-secondary.php:65
+msgid "My account"
+msgstr ""
+
+#: includes/template-tags.php:263
+msgid "Try"
+msgstr ""
+
+#: includes/template-tags.php:310
+msgid "All"
+msgstr ""
+
+#: includes/template-tags.php:358
+msgctxt "Label for sticky posts"
+msgid "Featured"
+msgstr ""
+
+#: includes/template-tags.php:371
+msgctxt "Post meta"
+msgid "Categories"
+msgstr ""
+
+#: includes/template-tags.php:395
+msgctxt "Post meta"
+msgid "Tags"
+msgstr ""
+
+#: includes/template-tags.php:420
+msgctxt "Post meta"
+msgid "Post date"
+msgstr ""
+
+#. translators: %s: author link
+#: includes/template-tags.php:437
+#, php-format
+msgid "Published by %s"
+msgstr ""
+
+#: includes/wishlist/includes/blocks/assets/js/editor.js:21
+#: includes/wishlist/includes/blocks/assets/js/editor.js:25
+#: includes/wishlist/includes/blocks/assets/js/editor.js:48
+msgid "Wishlist Button"
+msgstr ""
+
+#: includes/wishlist/includes/blocks/assets/js/editor.js:37
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/wishlist/includes/blocks/assets/js/editor.js:49
+msgid "Display an add-to-wishlist button for the product"
+msgstr ""
+
+#: includes/wishlist/includes/blocks/class-nmww-blocks.php:62
+#: includes/wishlist/includes/class-nmww.php:146
+#: includes/wishlist/includes/class-nmww.php:420
+#: includes/wishlist/includes/class-nmww.php:488
+msgid "Add to Wishlist"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:45
+msgctxt "Plugin customizer"
+msgid "Wishlist"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:56
+msgctxt "Plugin customizer"
+msgid "Wishlist page"
+msgstr ""
+
+#. translators: %1$s: shortcode tags open, %2$s: shortcode tags close, %3$s: anchor tag open, %4$s: anchor tag close
+#: includes/wishlist/includes/class-nmww-customize.php:58
+#, php-format
+msgctxt "Plugin customizer"
+msgid ""
+"If no Wishlist page has been added, create a new page and use the "
+"%1$s[nmw_wishlist]%2$s shortcode. For more help, please follow %3$sthis "
+"guide%4$s."
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:76
+msgctxt "Plugin customizer"
+msgid "Show count for menu button"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:89
+msgctxt "Plugin customizer"
+msgid "Require login"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:115
+msgctxt "Plugin customizer"
+msgid "Buttons"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:129
+msgctxt "Plugin customizer"
+msgid "Product listings"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:142
+msgctxt "Plugin customizer"
+msgid "Product page gallery"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:155
+msgctxt "Plugin customizer"
+msgid "Product page summary"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:168
+msgctxt "Plugin customizer"
+msgid "Button product-list visibility (desktop)"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:169
+msgctxt "Plugin customizer"
+msgid "Select how buttons should be displayed for product listings."
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:173
+msgctxt "Plugin customizer"
+msgid "Always visible"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:174
+msgctxt "Plugin customizer"
+msgid "Visible on hover"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:199
+msgctxt "Plugin customizer"
+msgid "Drawer"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:213
+#: includes/wishlist/includes/class-nmww-customize.php:266
+msgctxt "Plugin customizer"
+msgid "Enable"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:226
+msgctxt "Plugin customizer"
+msgid "Open drawer when adding"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:252
+msgctxt "Plugin customizer"
+msgid "Share"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:275
+msgctxt "Plugin customizer"
+msgid "My wishlist"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:279
+msgctxt "Plugin customizer"
+msgid "Share title"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:293
+msgctxt "Plugin customizer"
+msgid "Share description"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:306
+msgctxt "Plugin customizer"
+msgid "Share image"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:332
+msgctxt "Plugin customizer"
+msgid "Colors"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:346
+msgctxt "Plugin customizer"
+msgid "Buttons (heart icons)"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:359
+msgctxt "Plugin customizer"
+msgid "Borders"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:372
+msgctxt "Plugin customizer"
+msgid "Foreground"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww-customize.php:385
+msgctxt "Plugin customizer"
+msgid "Background"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww.php:147
+#: includes/wishlist/includes/class-nmww.php:420
+#: includes/wishlist/includes/class-nmww.php:489
+msgid "Remove from Wishlist"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww.php:167
+msgid "Please login to use the Wishlist"
+msgstr ""
+
+#. translators: %s: items count
+#: includes/wishlist/includes/class-nmww.php:314
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wishlist/includes/class-nmww.php:681
+#: includes/wishlist/templates/wishlist.php:102
+msgid "Your wishlist is currently empty!"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww.php:686
+#: template-parts/header/menu-secondary.php:78
+msgid "Wishlist"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww.php:698
+msgid "Share"
+msgstr ""
+
+#: includes/wishlist/includes/class-nmww.php:707
+msgid "View Wishlist"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:29
+#: woocommerce/checkout/review-order.php:28
+msgid "Product"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:30
+msgid "Added"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:31
+msgid "Status"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:69
+msgid "In stock"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:71
+msgid "Out of stock"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:85
+msgid "Share on"
+msgstr ""
+
+#: includes/wishlist/templates/wishlist.php:104
+msgid "Return to shop"
+msgstr ""
+
+#. translators: %s: search query
+#: index.php:29
+#, php-format
+msgid "Search: \"%s\""
+msgstr ""
+
+#: index.php:39
+#, php-format
+msgid "We found %d result for your search."
+msgid_plural "We found %d results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.php:48
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: index.php:51
+msgid "Blog"
+msgstr ""
+
+#. translators: %s: post title
+#: single.php:22
+#, php-format
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%s</"
+"span>"
+msgstr ""
+
+#: single.php:42
+msgid "Previous"
+msgstr ""
+
+#: single.php:53
+msgid "Next"
+msgstr ""
+
+#: template-parts/header/menu-primary.php:12
+msgid "Primary menu"
+msgstr ""
+
+#: template-parts/header/menu-secondary.php:11
+msgid "Secondary menu"
+msgstr ""
+
+#: template-parts/header/menu-secondary.php:51
+msgid "Search"
+msgstr ""
+
+#. translators: %s: Link to WP admin new post page.
+#: template-parts/post/content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:36
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#. translators: %s: total results
+#: template-parts/woocommerce/result-count.php:15
+#, php-format
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/checkout/review-order.php:29
+#: woocommerce/checkout/review-order.php:64
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:111
+msgid "Total"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:29
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+msgid "Showing the single result"
+msgstr ""
+
+#. translators: %d: total results
+#: woocommerce/loop/result-count.php:35 woocommerce/loop/result-count.php:43
+#, php-format
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: woocommerce/loop/result-count.php:46
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Theme Name of the plugin/theme
+msgid "Heim"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://heim.nordicmade.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Heim is a modern, minimalist e-commerce theme optimized for the Block "
+"Editor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "NordicMade"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.nordicmade.com/"
+msgstr ""

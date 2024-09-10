@@ -1,0 +1,15 @@
+@use "../tools" as *;
+@use "../settings" as *;
+
+html {
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+}
+
+body {
+	font-family: var(--wp--preset--font-family--sans);
+	font-size: var(--wp--preset--font-size--base);
+	line-height: var(--wp--custom--line-height--relaxed);
+
+	@include container-sizes(sm, md, lg, xl);
+}

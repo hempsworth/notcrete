@@ -1,0 +1,13 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"styles": {
+		"spacing": {
+			"blockGap": "var(--wp--custom--layout--block-gap)",
+			"padding": {
+				"right": "var(--wp--custom--layout--padding)",
+				"left": "var(--wp--custom--layout--padding)"
+			}
+		}
+	}
+}

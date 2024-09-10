@@ -1,0 +1,39 @@
+/*
+>>> WP admin styles <<<
+ */
+
+/* # Block Editor: Background color */
+#editor .edit-post-visual-editor {
+	background-color: transparent;
+}
+
+/* # Customizer */
+.block-editor .edit-post-visual-editor__content-area > .is-desktop-preview {
+    background-color: var(--global--color-body) !important;
+}
+.customize-control.customize-control-heim_heading {
+    margin-bottom: 0;
+}
+.customize-control-heim_divider hr {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#customize-control-shop_aside_panel_button,
+#customize-control-header_color_mode,
+#customize-control-header_search,
+#customize-control-header_myaccount,
+#customize-control-header_wishlist,
+#customize-control-mini_cart,
+#customize-control-mini_cart_show_added {
+    margin-bottom: 0;
+}
+
+/* # Customizer: Colors */
+#sub-accordion-section-colors_dark_mode .customize-control.customize-control-heim_heading,
+#sub-accordion-section-colors_light_mode .customize-control.customize-control-heim_heading {
+    margin-bottom: 18px;
+}
+#sub-accordion-section-colors_dark_mode .customize-control.customize-control-heim_heading .customize-control-title,
+#sub-accordion-section-colors_light_mode .customize-control.customize-control-heim_heading .customize-control-title {
+    font-size: 16px;
+}

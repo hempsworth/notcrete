@@ -1,0 +1,9 @@
+@use "../tools" as *;
+
+// Dont style lists within a <nav> element as lists by default.
+// Low specificity for easier overrides.
+:where(nav) :where(ul, ol) {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

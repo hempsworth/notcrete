@@ -1,0 +1,28 @@
+{
+	"name": "eighteen73/pulsar",
+	"type": "wordpress-theme",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Brett Mason",
+			"email": "brett@orphans.co.uk"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Pulsar\\": "includes/classes/"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require-dev": {
+		"eighteen73/wordpress-coding-standards": "^2.0.0"
+	}
+}

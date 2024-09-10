@@ -1,0 +1,168 @@
+/* Reset */
+.heim-setup ul,
+.heim-setup li {
+    margin: 0;
+    padding: 0;
+}
+
+/* TGMPA notice */
+.heim-setup #setting-error-tgmpa {
+    display: none !important;
+}
+
+/* Main container */
+.heim-setup-wrap {
+	position: relative;
+}
+
+/* Notice */
+#heim-setup-notice.hide {
+    display: none;
+}
+
+/* Cover */
+.heim-setup-cover {
+    display: none;
+	position: absolute;
+	top: 0;
+    right: 0;
+	bottom: 0;
+	left: 0;
+    z-index: 100;
+}
+.loading .heim-setup-cover {
+    display: block;
+}
+
+/* Spinner */
+.heim-setup-spinner {
+    display: none;
+    margin-top: 32px;
+    padding: 9px 0;
+}
+.loading .heim-setup-spinner {
+    display: block;
+    overflow: hidden;
+}
+.heim-setup-spinner img {
+    display: inline-block;
+}
+
+/* View */
+.heim-setup-view {
+    max-width: 480px;
+    margin-top: 23px;
+    padding: 32px;
+}
+.heim-setup-steps {
+    margin: 0;
+    padding: 0;
+}
+.heim-setup-steps > img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.heim-setup-step > svg {
+    max-width: 100px;
+    margin-top: 30px;
+}
+.heim-setup-step {
+	visibility: hidden;
+    position: absolute;
+    position: inherit;
+    width: 1px;
+    height: 0px;
+    overflow: hidden;
+}
+.heim-setup-step.active {
+	visibility: visible;
+    width: auto;
+    height: auto;
+}
+.heim-setup-step h2 {
+    font-size: 20px;
+    margin: 30px 0 0;
+}
+.heim-setup-step h3 {
+    margin: 0;
+}
+
+/* Summary */
+.heim-setup-summary {
+    margin-top: 25px;
+}
+.heim-setup-summary p {
+    margin: 0 0 14px;
+}
+.heim-setup-summary p:last-child {
+    margin-bottom: 0;
+}
+
+/* Content list */
+ul.heim-setup-tasks {
+    margin-top: 30px;
+}
+.heim-setup-tasks li {
+    position: relative;
+    overflow: hidden;
+}
+.heim-setup-tasks li > div {
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 18px;
+    background: #f5f5f5;
+}
+.heim-setup-tasks li:last-child > div {
+    margin-bottom: 0;
+}
+.heim-setup-tasks li span {
+    font-weight: normal;
+}
+.heim-setup-tasks li span .error {
+    font-style: normal;
+    color: #dc3232;
+}
+
+/* Info */
+.heim-setup-info {
+    margin-top: 25px;
+}
+.heim-setup-info ul {
+    margin-top: 25px;
+}
+.heim-setup-info ul li {
+    margin-top: 10px;
+}
+.heim-setup-info ul li a {
+    text-decoration: none;
+}
+.heim-setup-info ul li a:before {
+    color: #828282;
+    margin-right: 10px;
+}
+
+/* Buttons */
+.heim-setup-button-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	margin-top: 32px;
+    padding-bottom: 1px;
+    text-align: right;
+}
+.step-final .heim-setup-button-wrap {
+    margin-top: 25px;
+}
+.loading .heim-setup-button-wrap {
+    display: none;
+}
+.heim-setup .button {
+	font-size: 16px;
+    line-height: 1;
+	height: auto;
+    margin: 0;
+    padding: 10px 20px;
+}

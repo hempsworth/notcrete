@@ -1,0 +1,26 @@
+@use "../tools" as *;
+
+.site-header {
+	@include container;
+	margin: 0;
+	padding-bottom: var(--wp--preset--spacing--lg);
+	padding-top: var(--wp--preset--spacing--lg);
+	position: relative;
+
+	&__inner {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__logo {
+		font-family: unset;
+		font-size: unset;
+		line-height: 1;
+		margin: 0;
+	}
+
+	&__logo-link {
+		display: inline-block;
+	}
+}

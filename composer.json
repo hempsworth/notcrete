@@ -1,0 +1,86 @@
+{
+  "name": "eighteen73/nebula",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
+  "authors": [
+    {
+      "name": "Ed Jeavons",
+      "email": "ed@orphans.co.uk"
+    },
+    {
+      "name": "Brett Mason",
+      "email": "brett@orphans.co.uk"
+    }
+  ],
+  "keywords": [
+    "nebula", "composer", "eighteen73", "wordpress", "wp", "wp-config"
+  ],
+  "support": {
+    "issues": "https://github.com/eighteen73/nebula/issues"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "composer/installers": "^2.2.0",
+    "eighteen73/nebula-tools": "^v1.1.0",
+    "eighteen73/orbit": "^v1.2.0",
+    "vlucas/phpdotenv": "^5.5",
+    "roots/wordpress": "^6.4.2",
+    "roots/wp-config": "1.0.0",
+    "wpackagist-theme/twentytwentyfour": "^1.0",
+    "eighteen73/pulsar-blocks": "^0.6.1",
+    "eighteen73/wordpress-thumbor": "^0.1.0",
+    "wpackagist-plugin/block-visibility": "^3.5",
+    "wpackagist-plugin/duracelltomi-google-tag-manager": "^1.20",
+    "wpackagist-plugin/redirection": "^5.4",
+    "wpackagist-plugin/wordfence": "^7.11",
+    "wpackagist-plugin/wordpress-seo": "^23.2",
+    "wpackagist-plugin/wp-super-cache": "^1.12",
+    "wpackagist-plugin/simple-smtp": "^1.3",
+    "wpackagist-plugin/woocommerce": "^9.1",
+    "wpackagist-plugin/woo-variation-swatches": "^2.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.8.0",
+    "roave/security-advisories": "dev-latest",
+    "eighteen73/satellite": "^1.1",
+    "eighteen73/wordpress-coding-standards": "^2.0",
+    "wpackagist-plugin/attachment-taxonomies": "^1.2",
+    "wpackagist-plugin/spatie-ray": "^1.7"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "mnsami/composer-custom-directory-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "Eighteen73\\NebulaTools\\ComposerScripts\\PostCreateProject::run"
+    ],
+    "test": [
+      "phpcs"
+    ]
+  }
+}

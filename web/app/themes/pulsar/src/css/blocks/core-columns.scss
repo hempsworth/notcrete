@@ -1,0 +1,58 @@
+@use "../tools" as *;
+
+.wp-block-columns {
+	display: flex;
+
+	// Trump cores `body .is-layout-flex` selector as it doesn't apply to columns.
+	&:not([class^="are-vertically-aligned"]) {
+		align-items: initial;
+	}
+
+	// Columns should always be rows unless set to stack.
+	&:where(:not([class^="is-stacked-on"])) {
+		flex-direction: column;
+	}
+
+	// All Columns Alignment
+	&.are-vertically-aligned-top {
+		align-items: flex-start;
+	}
+
+	&.are-vertically-aligned-center {
+		align-items: center;
+	}
+
+	&.are-vertically-aligned-bottom {
+		align-items: flex-end;
+	}
+
+	&:where(.is-reversed-when-stacked) {
+		flex-direction: column-reverse;
+	}
+
+	/// The fallback stacking class.
+	&:where(.is-stacked-on-sm),
+	&:where(:not([class*="is-stacked-on"])) {
+		@media (--sm) {
+			flex-direction: row;
+		}
+	}
+
+	&:where(.is-stacked-on-md) {
+		@media (--md) {
+			flex-direction: row;
+		}
+	}
+
+	&:where(.is-stacked-on-lg) {
+		@media (--lg) {
+			flex-direction: row;
+		}
+	}
+
+	&:where(.is-stacked-on-xl) {
+		@media (--xl) {
+			flex-direction: row;
+		}
+	}
+}

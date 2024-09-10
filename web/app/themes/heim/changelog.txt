@@ -1,0 +1,51 @@
+*** Heim Theme Changelog ***
+
+2024-07-16 - version 1.1.0
+
+* WordPress 6.6 compatibility fixes
+
+2024-07-12 - version 1.0.9
+* WooCommerce 9.1 compatibility fixes
+* Tweak: Various minor styling improvements
+
+2024-06-19 - version 1.0.8
+* WooCommerce 9.0 compatibility fixes
+* Tweak: Various styling improvements
+* Fix: Text not centered on empty legacy cart page
+
+2024-05-18 - version 1.0.7
+* WooCommerce 8.9 compatibility fixes
+* Tweak: Various styling improvements
+* Fix: Link not visible in some shop notices
+
+2024-01-16 - version 1.0.6
+* WooCommerce 8.5 compatibility fixes
+* Tweak: Various minor styling improvements
+
+2023-11-17 - version 1.0.5
+* WooCommerce 8.3 compatibility fixes
+* Tweak: Various minor styling improvements
+
+2023-10-11 - version 1.0.4
+* WooCommerce 8.2 compatibility fixes
+* Tweak: Various minor styling improvements
+* Fix: Logo image not changing when "auto" dark-mode is enabled
+
+2023-09-12 - version 1.0.3
+* Tweak: Categories in side-panel menu is now output hierarchically
+* Tweak: Various minor styling improvements
+* Fix: Checkbox shop filters overlapping in some cases
+
+2023-07-18 - version 1.0.2
+* Tweak: Color mode switching now works with page caching
+* Tweak: Conditional :hover styles for improved usability on touch devices
+* Tweak: Various minor styling improvements
+* Fix: Updated translation-domain for various text removed from the WooCommerce language file
+
+2023-06-14 - version 1.0.1
+* New: Customizer logo options for better color-mode integration
+* Fix: Cleared JavaScript error when header cart button is disabled
+* Fix: Aligned addresses on my-account page
+
+2023-05-10 - version 1.0
+* Initial release
