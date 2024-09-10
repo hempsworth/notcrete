@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "895f512cb8eaf179c6a27b1ab1058764",
+    "content-hash": "75986615015512ea962743603063424f",
     "packages": [
         {
             "name": "composer/installers",
@@ -242,16 +242,16 @@
         },
         {
             "name": "eighteen73/pulsar-blocks",
-            "version": "v0.6.2",
+            "version": "v0.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/eighteen73/pulsar-blocks.git",
-                "reference": "d236a2d2b06618a1d9dc51d95bc25ec314a259f9"
+                "reference": "54a80199b37300540531d82372cec3524a851c16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eighteen73/pulsar-blocks/zipball/d236a2d2b06618a1d9dc51d95bc25ec314a259f9",
-                "reference": "d236a2d2b06618a1d9dc51d95bc25ec314a259f9",
+                "url": "https://api.github.com/repos/eighteen73/pulsar-blocks/zipball/54a80199b37300540531d82372cec3524a851c16",
+                "reference": "54a80199b37300540531d82372cec3524a851c16",
                 "shasum": ""
             },
             "require": {
@@ -281,9 +281,9 @@
             ],
             "support": {
                 "issues": "https://github.com/eighteen73/pulsar-blocks/issues",
-                "source": "https://github.com/eighteen73/pulsar-blocks/tree/v0.6.2"
+                "source": "https://github.com/eighteen73/pulsar-blocks/tree/v0.8.1"
             },
-            "time": "2024-08-29T14:04:32+00:00"
+            "time": "2024-09-04T14:19:13+00:00"
         },
         {
             "name": "eighteen73/wordpress-thumbor",

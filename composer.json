@@ -35,7 +35,7 @@
     "roots/wordpress": "^6.4.2",
     "roots/wp-config": "1.0.0",
     "wpackagist-theme/twentytwentyfour": "^1.0",
-    "eighteen73/pulsar-blocks": "^0.6.1",
+    "eighteen73/pulsar-blocks": "^0.8.1",
     "eighteen73/wordpress-thumbor": "^0.1.0",
     "wpackagist-plugin/block-visibility": "^3.5",
     "wpackagist-plugin/duracelltomi-google-tag-manager": "^1.20",
