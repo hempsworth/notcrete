@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "05e37c292546f936925194499e52e889",
+    "content-hash": "98ed9f5845ae0dbb5926f9745037029f",
     "packages": [
         {
             "name": "composer/installers",
@@ -1049,6 +1049,24 @@
             "homepage": "https://wordpress.org/plugins/duracelltomi-google-tag-manager/"
         },
         {
+            "name": "wpackagist-plugin/password-protected",
+            "version": "2.7.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/password-protected/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/password-protected.zip?timestamp=1724751083"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/password-protected/"
+        },
+        {
             "name": "wpackagist-plugin/redirection",
             "version": "5.5.0",
             "source": {
@@ -1155,24 +1173,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-maintenance-mode",
-            "version": "2.6.11",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
-                "reference": "tags/2.6.11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.2.6.11.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-maintenance-mode/"
         },
         {
             "name": "wpackagist-plugin/wp-super-cache",
